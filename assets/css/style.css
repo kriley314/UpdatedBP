@@ -23,6 +23,10 @@
     background: orange;
   }
 
+  .row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 15px;
+}
+
   ul {
       margin-inline-start: 75%;
   }
